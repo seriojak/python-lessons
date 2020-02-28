@@ -1,7 +1,6 @@
 from flask_sqlalchemy import SQLAlchemy
 import json
-from pluralsight.flask.settings import app
-
+from .settings import app
 
 db = SQLAlchemy(app)
 

@@ -1,15 +1,11 @@
 import datetime
 from typing import Dict
-
 import jwt
 from flask import jsonify, request, Response
 
-# from bookModel import *
-# from settings import *
+from .BookModel import *
+from .settings import *
 
-from pluralsight.flask.BookModel import *
-
-from pluralsight.flask.settings import *
 
 app.config['SECRET_KEY'] = 'meow'
 
